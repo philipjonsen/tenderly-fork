@@ -48,7 +48,7 @@ async function main() {
     "To use this fork on the aave interface type the following commands in the console."
   );
   console.log("--------------");
-  console.log(`localStorage.setItem('forkEnabled', 'true');`);
+  console.log("localStorage.setItem('forkEnabled', 'true');");
   console.log(`localStorage.setItem('forkBaseChainId', ${FORK_NETWORK_ID});`);
   console.log(`localStorage.setItem('forkNetworkId', ${CHAIN_ID});`);
   console.log(`localStorage.setItem("forkRPCUrl", "${fork.get_rpc_url()}");`);
